@@ -9,3 +9,4 @@ Feel free to contribute to add your own functions, or to make this script univer
 ### What's next
 - Get 5 biggest processus and print it
 - [Perhaps] Make an "urgent" command to close the server from outside, in case of attack
+- Make another python script, launch by cron to send me daily report about what happened
