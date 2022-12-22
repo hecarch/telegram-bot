@@ -23,7 +23,7 @@ def status(update: Update, context: CallbackContext) -> None:
     if update.message.chat_id == <chat_id>:
         update.message.reply_text("Here is the status of your server, dear.\nComputing...")
 
-        # Gettinf stats
+        # Getting stats
         cpu_usage :str = str(psutil.cpu_percent(1))
         ram_usage :str = str(psutil.virtual_memory()[2])
         disk_usage :str = str(psutil.disk_usage('/home').percent)
